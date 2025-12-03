@@ -7,8 +7,8 @@ Pastikan anda telah install python interpreter dalam pc/laptop anda
 Download di website official python
 [https://www.python.org/downloads/](https://www.python.org/downloads/)
 
-# Download source code ataupun clone repo ini
-[!screenshot](134434.png)
+## Download source code ataupun clone repo ini
+![screenshot](134434.png)
 
 or
 
