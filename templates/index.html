@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Test</title>
+</head>
+<body>
+<span id="output">Message :</span>
+<form id="form" method="post" action="/send">
+	<input type="text" id="msg">
+	<button type="submit">Send</button>
+</form>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+	function hantar() {
+	    let msg = $("#msg").val();
+	    $.ajax({
+	        url: "/submit",
+	        type: "POST",
+	        contentType: "application/json",
+	        data: JSON.stringify({ "msg": msg }),
+
+	        success: function(res) {
+	            $('#output').html('Message : '+res)
+	        }
+	    });
+	    $('#msg').val('')
+	}
+
+	$('#form').on("submit",(e)=>{
+		e.preventDefault()
+		hantar()
+
+	})
+</script>
+</body>
+</html>
