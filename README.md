@@ -1,4 +1,4 @@
-# xss_array_injection (lang=Malay)
+# xss_array_injection
 ## Source code
 `server1.py` ialah versi backend yang lemah <br>
 `server2.py` ialah versi backend yang telah diperkuat
@@ -8,9 +8,13 @@ Download di website official python
 [https://www.python.org/downloads/](https://www.python.org/downloads/)
 
 ## Download source code ataupun clone repo ini
-![screenshot](134434.png)
+<p align="center">
+<img src="134434.png" alt="Screenshot" width="500" style="display:block;">
+<br>
+OR
+</p>
 
-or
+
 
 ```sh
 git clone https://github.com/Mika259/xss_array_injection.git
