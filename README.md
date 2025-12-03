@@ -7,6 +7,18 @@ Pastikan anda telah install python interpreter dalam pc/laptop anda
 Download di website official python
 [https://www.python.org/downloads/](https://www.python.org/downloads/)
 
+# Download source code ataupun clone repo ini
+[!screenshot](134434.png)
+
+or
+
+```sh
+git clone https://github.com/Mika259/xss_array_injection.git
+```
+```sh
+cd xss_array_injection
+```
+
 ## Install requirement
 ```sh
 pip install flask
